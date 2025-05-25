@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MANYTHOUSAND Store</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MANYTHOUSAND</h1>
+      <p>Clothing for the heavy soul</p>
+    </header>
+
+    <section class="gallery">
+      <div class="product" data-id="1" data-name="Jacket X" data-price="350000">
+        <img
+          src="https://via.placeholder.com/250x300?text=Jacket+X"
+          alt="Jacket X"
+        />
+        <h2>Jacket X</h2>
+        <p>Rp 350.000</p>
+        <button class="buy-btn">Tambah ke Keranjang</button>
+      </div>
+      <div
+        class="product"
+        data-id="2"
+        data-name="Black Tee"
+        data-price="150000"
+      >
+        <img
+          src="https://via.placeholder.com/250x300?text=Black+Tee"
+          alt="Black Tee"
+        />
+        <h2>Black Tee</h2>
+        <p>Rp 150.000</p>
+        <button class="buy-btn">Tambah ke Keranjang</button>
+      </div>
+      <div
+        class="product"
+        data-id="3"
+        data-name="Skull Hoodie"
+        data-price="420000"
+      >
+        <img
+          src="https://via.placeholder.com/250x300?text=Skull+Hoodie"
+          alt="Skull Hoodie"
+        />
+        <h2>Skull Hoodie</h2>
+        <p>Rp 420.000</p>
+        <button class="buy-btn">Tambah ke Keranjang</button>
+      </div>
+    </section>
+
+    <aside class="cart">
+      <h3>Keranjang</h3>
+      <div id="cart-items">
+        <p class="empty-msg">Keranjang kosong</p>
+      </div>
+      <div class="cart-total" id="cart-total">Total: Rp 0</div>
+      <button id="checkout-btn">Checkout via whatsap</button>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
